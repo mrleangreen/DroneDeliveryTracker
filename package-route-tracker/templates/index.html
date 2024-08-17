@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Package Route Tracker</title>
+</head>
+<body>
+    <h1>Track Your Package</h1>
+    <form method="post">
+        <label for="from_address">From Address:</label>
+        <input type="text" id="from_address" name="from_address" required>
+        <br><br>
+        <label for="to_address">To Address:</label>
+        <input type="text" id="to_address" name="to_address" required>
+        <br><br>
+        <button type="submit">Track</button>
+    </form>
+    {% if map_html %}
+    <div id="map">{{ map_html|safe }}</div>
+    {% endif %}
+</body>
+</html>
