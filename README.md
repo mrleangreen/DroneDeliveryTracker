@@ -2,7 +2,7 @@
 An Application That Tracks Paackages In Transit
 
 Authors:
-Tyler H
+Tyler H,
 Devanna W
 Project Overview
 Drone Delivery Tracker is a Python-based web application that allows users to track the delivery route of a package using their "From" and "To" addresses. The application utilizes the Google Maps Geocoding API to convert addresses into coordinates and displays the delivery route on a map using the Folium library.
