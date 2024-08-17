@@ -22,7 +22,7 @@ Installation
 1. Clone the Repository
 bash
 
-git clone https://github.com/yourusername/drone-delivery-tracker.git
+git clone https://github.com/mrleangreen/drone-delivery-tracker.git
 cd drone-delivery-tracker
 3. Set Up the Virtual Environment
 bash
@@ -38,7 +38,7 @@ Obtain a Google Maps API key from the Google Cloud Console.
 Replace the API_KEY in the app.py file with your actual API key:
 python
 
-API_KEY = 'YOUR_GOOGLE_MAPS_API_KEY'
+API_KEY = '984mil65vBjOSWEuEfvnq8NGKjHNAIW4r0BMv2vXLjw'
 Usage
 Run the Flask Application
 
